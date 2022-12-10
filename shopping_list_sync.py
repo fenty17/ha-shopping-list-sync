@@ -10,7 +10,7 @@ if "/config/pyscript_modules" not in sys.path:
 import write_file
 
 write_file = reload(write_file)
-TODOIST_TOKEN = "ENTER_YOUR_TODOIST_TOKEN"
+TODOIST_TOKEN = "ENTER_YOUR_TODOIST_API_TOKEN"
 TODOIST_PROJECT_ID = ENTER_YOUR_TODOIST_PROJECT_ID
 
 def get_tasks():
